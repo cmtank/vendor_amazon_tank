@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/amazon/tank/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/amazon/tank/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
-    vendor/amazon/tank/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/btmac.sh:system/etc/bluetooth/btmac.sh \
@@ -41,18 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/etc/firmware/ROMv2_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_patch_1_0_hdr.bin \
     vendor/amazon/tank/proprietary/etc/firmware/ROMv2_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_patch_1_1_hdr.bin \
     vendor/amazon/tank/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
-    vendor/amazon/tank/proprietary/etc/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
-    vendor/amazon/tank/proprietary/etc/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
-    vendor/amazon/tank/proprietary/etc/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml \
-    vendor/amazon/tank/proprietary/etc/media_codecs.xml:system/etc/media_codecs.xml \
-    vendor/amazon/tank/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/amazon/tank/proprietary/etc/monitoring.conf:system/etc/monitoring.conf \
-    vendor/amazon/tank/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
-    vendor/amazon/tank/proprietary/etc/permissions/android.hardware.hdmi.cec.xml:system/etc/permissions/android.hardware.hdmi.cec.xml \
-    vendor/amazon/tank/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
-    vendor/amazon/tank/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
-    vendor/amazon/tank/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
-    vendor/amazon/tank/proprietary/etc/.tp/thermal.policy.conf:system/etc/.tp/thermal.policy.conf \
     vendor/amazon/tank/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/amazon/tank/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/amazon/tank/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
@@ -137,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/amazon/tank/proprietary/lib/libmp2dec_sa.ca7.so:system/lib/libmp2dec_sa.ca7.so \
     vendor/amazon/tank/proprietary/lib/libmp2dec_sb.ca7.so:system/lib/libmp2dec_sb.ca7.so \
-    vendor/amazon/tank/proprietary/lib/libmp2dec_sb.ca7.so:system/lib/libmp2dec_sb.ca7.so \
     vendor/amazon/tank/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
     vendor/amazon/tank/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
     vendor/amazon/tank/proprietary/lib/libm.so:system/lib/libm.so \
@@ -217,7 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/lib/libdlb_converter.so:system/vendor/lib/libdlb_converter.so \
     vendor/amazon/tank/proprietary/vendor/lib/libdlbdapstorage.so:system/vendor/lib/libdlbdapstorage.so \
     vendor/amazon/tank/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/amazon/tank/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/amazon/tank/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
     vendor/amazon/tank/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/amazon/tank/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -241,4 +227,14 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headphone.csv:system/vendor/smartvolume/tank/wired_headphone.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv \
     vendor/amazon/tank/proprietary/xbin/trapz:system/xbin/trapz \
-    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl
+    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl \
+    vendor/amazon/tank/proprietary/bin/amzn_dha_hmac:system/bin/amzn_dha_hmac \
+    vendor/amazon/tank/proprietary/bin/amzn_dha_tool:system/bin/amzn_dha_tool \
+    vendor/amazon/tank/proprietary/bin/amzn_drmprov_check:system/bin/amzn_drmprov_check \
+    vendor/amazon/tank/proprietary/bin/amzn_drmprov_tool:system/bin/amzn_drmprov_tool \
+    vendor/amazon/tank/proprietary/lib/hw/amzn_dha.mt8127.so:system/lib/hw/amzn_dha.mt8127.so \
+    vendor/amazon/tank/proprietary/lib/hw/amzn_drmprov.mt8127.so:system/lib/hw/amzn_drmprov.mt8127.so \
+    vendor/amazon/tank/proprietary/lib/libiwnnAmzn.so:system/lib/libiwnnAmzn.so \
+    vendor/amazon/tank/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
+    vendor/amazon/tank/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
+    vendor/amazon/tank/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder
