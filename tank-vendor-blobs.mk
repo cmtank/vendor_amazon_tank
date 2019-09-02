@@ -18,15 +18,29 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/bin/6620_launcher:system/bin/6620_launcher \
     vendor/amazon/tank/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/amazon/tank/proprietary/bin/akmd8963:system/bin/akmd8963 \
+    vendor/amazon/tank/proprietary/bin/amzn_dha_hmac:system/bin/amzn_dha_hmac \
+    vendor/amazon/tank/proprietary/bin/amzn_dha_tool:system/bin/amzn_dha_tool \
+    vendor/amazon/tank/proprietary/bin/amzn_drmprov_check:system/bin/amzn_drmprov_check \
+    vendor/amazon/tank/proprietary/bin/amzn_drmprov_tool:system/bin/amzn_drmprov_tool \
+    vendor/amazon/tank/proprietary/bin/atcid:system/bin/atcid \
+    vendor/amazon/tank/proprietary/bin/atci_service:system/bin/atci_service \
     vendor/amazon/tank/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/amazon/tank/proprietary/bin/auto_hdmi.sh:system/bin/auto_hdmi.sh \
+    vendor/amazon/tank/proprietary/bin/drmserver:system/bin/drmserver \
     vendor/amazon/tank/proprietary/bin/ext4_resize:system/bin/ext4_resize \
     vendor/amazon/tank/proprietary/bin/hdmi:system/bin/hdmi \
     vendor/amazon/tank/proprietary/bin/idme:system/bin/idme \
     vendor/amazon/tank/proprietary/bin/kisd:system/bin/kisd \
+    vendor/amazon/tank/proprietary/bin/meta_tst:system/bin/meta_tst \
+    vendor/amazon/tank/proprietary/bin/mmp:system/bin/mmp \
+    vendor/amazon/tank/proprietary/bin/msensord:system/bin/msensord \
     vendor/amazon/tank/proprietary/bin/mt8127_hdmi:system/bin/mt8127_hdmi \
     vendor/amazon/tank/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
+    vendor/amazon/tank/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/amazon/tank/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
+    vendor/amazon/tank/proprietary/bin/pq:system/bin/pq \
+    vendor/amazon/tank/proprietary/bin/recovery_reporter:system/bin/recovery_reporter \
+    vendor/amazon/tank/proprietary/bin/rpmb_svc:system/bin/rpmb_svc \
     vendor/amazon/tank/proprietary/bin/thermald:system/bin/thermald \
     vendor/amazon/tank/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/amazon/tank/proprietary/bin/wmt_loader:system/bin/wmt_loader \
@@ -47,6 +61,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/amazon/tank/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
     vendor/amazon/tank/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
+    vendor/amazon/tank/proprietary/lib/hw/amzn_dha.mt8127.so:system/lib/hw/amzn_dha.mt8127.so \
+    vendor/amazon/tank/proprietary/lib/hw/amzn_drmprov.mt8127.so:system/lib/hw/amzn_drmprov.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/amazon/tank/proprietary/lib/hw/audio.btle.default.so:system/lib/hw/audio.btle.default.so \
     vendor/amazon/tank/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
@@ -58,7 +74,9 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/hw/gralloc.mt8127.so:system/lib/hw/gralloc.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/hdmi_cec.default.so:system/lib/hw/hdmi_cec.default.so \
     vendor/amazon/tank/proprietary/lib/hw/hwcomposer.mt8127.so:system/lib/hw/hwcomposer.mt8127.so \
+    vendor/amazon/tank/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
     vendor/amazon/tank/proprietary/lib/hw/keystore.mt8127.so:system/lib/hw/keystore.mt8127.so \
+    vendor/amazon/tank/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/amazon/tank/proprietary/lib/hw/memtrack.mt8127.so:system/lib/hw/memtrack.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/perfboost.mt8127.so:system/lib/hw/perfboost.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/thermal.mt8127.so:system/lib/hw/thermal.mt8127.so \
@@ -102,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/amazon/tank/proprietary/lib/libdeviceinfoservice.so:system/lib/libdeviceinfoservice.so \
     vendor/amazon/tank/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
+    vendor/amazon/tank/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
     vendor/amazon/tank/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/amazon/tank/proprietary/lib/libdrmplayreadydecryptor.so:system/lib/libdrmplayreadydecryptor.so \
     vendor/amazon/tank/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
@@ -116,11 +135,15 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/amazon/tank/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
     vendor/amazon/tank/proprietary/lib/libion.so:system/lib/libion.so \
+    vendor/amazon/tank/proprietary/lib/libiwnnAmzn.so:system/lib/libiwnnAmzn.so \
     vendor/amazon/tank/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/amazon/tank/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     vendor/amazon/tank/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/amazon/tank/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/amazon/tank/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
+    vendor/amazon/tank/proprietary/lib/libmediacodecloggerservice.so:system/lib/libmediacodecloggerservice.so \
+    vendor/amazon/tank/proprietary/lib/libmediacodeclogger.so:system/lib/libmediacodeclogger.so \
+    vendor/amazon/tank/proprietary/lib/libmediaerrorlogger.so:system/lib/libmediaerrorlogger.so \
     vendor/amazon/tank/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/amazon/tank/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/amazon/tank/proprietary/lib/libmp2dec_sa.ca7.so:system/lib/libmp2dec_sa.ca7.so \
@@ -132,6 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/amazon/tank/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/amazon/tank/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
+    vendor/amazon/tank/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
     vendor/amazon/tank/proprietary/lib/libMtkOmxAIVPlayer.so:system/lib/libMtkOmxAIVPlayer.so \
     vendor/amazon/tank/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/amazon/tank/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
@@ -139,11 +163,13 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     vendor/amazon/tank/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/amazon/tank/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
+    vendor/amazon/tank/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
     vendor/amazon/tank/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/amazon/tank/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/amazon/tank/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/amazon/tank/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/amazon/tank/proprietary/lib/libopuscodec.so:system/lib/libopuscodec.so \
+    vendor/amazon/tank/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
     vendor/amazon/tank/proprietary/lib/libplayready.so:system/lib/libplayready.so \
     vendor/amazon/tank/proprietary/lib/libqservice.so:system/lib/libqservice.so \
     vendor/amazon/tank/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
@@ -227,14 +253,4 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headphone.csv:system/vendor/smartvolume/tank/wired_headphone.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv \
     vendor/amazon/tank/proprietary/xbin/trapz:system/xbin/trapz \
-    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl \
-    vendor/amazon/tank/proprietary/bin/amzn_dha_hmac:system/bin/amzn_dha_hmac \
-    vendor/amazon/tank/proprietary/bin/amzn_dha_tool:system/bin/amzn_dha_tool \
-    vendor/amazon/tank/proprietary/bin/amzn_drmprov_check:system/bin/amzn_drmprov_check \
-    vendor/amazon/tank/proprietary/bin/amzn_drmprov_tool:system/bin/amzn_drmprov_tool \
-    vendor/amazon/tank/proprietary/lib/hw/amzn_dha.mt8127.so:system/lib/hw/amzn_dha.mt8127.so \
-    vendor/amazon/tank/proprietary/lib/hw/amzn_drmprov.mt8127.so:system/lib/hw/amzn_drmprov.mt8127.so \
-    vendor/amazon/tank/proprietary/lib/libiwnnAmzn.so:system/lib/libiwnnAmzn.so \
-    vendor/amazon/tank/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
-    vendor/amazon/tank/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
-    vendor/amazon/tank/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder
+    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl
