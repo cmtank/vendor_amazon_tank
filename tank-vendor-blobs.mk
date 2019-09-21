@@ -221,6 +221,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/data/ttp/tecla-2014.rsa:system/vendor/data/ttp/tecla-2014.rsa \
     vendor/amazon/tank/proprietary/vendor/data/ttp/viber-voip.rsa:system/vendor/data/ttp/viber-voip.rsa \
     vendor/amazon/tank/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
+    vendor/amazon/tank/proprietary/vendor/etc/dolby/ds-default.xml:system/vendor/etc/dolby/ds-default.xml \
     vendor/amazon/tank/proprietary/vendor/firmware/BCM43569A2_001.003.004.0148.0000.hcd:system/vendor/firmware/BCM43569A2_001.003.004.0148.0000.hcd \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware.bin:system/vendor/firmware/brcm/bcm43569a2-firmware.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware-test.bin:system/vendor/firmware/brcm/bcm43569a2-firmware-test.bin \
@@ -253,4 +254,5 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headphone.csv:system/vendor/smartvolume/tank/wired_headphone.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv \
     vendor/amazon/tank/proprietary/xbin/trapz:system/xbin/trapz \
-    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl
+    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl \
+    vendor/amazon/tank/proprietary/vendor/app/Ds/Ds.apk:system/vendor/app/Ds/Ds.apk
