@@ -199,7 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libwlm.so:system/lib/libwlm.so \
     vendor/amazon/tank/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
     vendor/amazon/tank/proprietary/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
-    vendor/amazon/tank/proprietary/lib/modules/ozwpan.ko:system/lib/modules/ozwpan.ko \
     vendor/amazon/tank/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/amazon/tank/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
     vendor/amazon/tank/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
