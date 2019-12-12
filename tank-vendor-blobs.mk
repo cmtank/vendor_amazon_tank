@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
     vendor/amazon/tank/proprietary/lib/hw/audio.sco.mt8127.so:system/lib/hw/audio.sco.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
+    vendor/amazon/tank/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/amazon/tank/proprietary/lib/hw/gralloc.mt8127.so:system/lib/hw/gralloc.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/hdmi_cec.default.so:system/lib/hw/hdmi_cec.default.so \
     vendor/amazon/tank/proprietary/lib/hw/hwcomposer.mt8127.so:system/lib/hw/hwcomposer.mt8127.so \
@@ -154,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/amazon/tank/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/amazon/tank/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
-    vendor/amazon/tank/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
     vendor/amazon/tank/proprietary/lib/libMtkOmxAIVPlayer.so:system/lib/libMtkOmxAIVPlayer.so \
     vendor/amazon/tank/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/amazon/tank/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
@@ -175,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libsoundtrigger.so:system/lib/libsoundtrigger.so \
     vendor/amazon/tank/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/amazon/tank/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/amazon/tank/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
     vendor/amazon/tank/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/amazon/tank/proprietary/lib/libthermalservice.so:system/lib/libthermalservice.so \
     vendor/amazon/tank/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
@@ -183,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libtoe.so:system/lib/libtoe.so \
     vendor/amazon/tank/proprietary/lib/libtrapz.so:system/lib/libtrapz.so \
     vendor/amazon/tank/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
+    vendor/amazon/tank/proprietary/lib/liburee_fps.so:system/lib/liburee_fps.so \
     vendor/amazon/tank/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so \
     vendor/amazon/tank/proprietary/lib/lib_uree_mtk_crypto.so:system/lib/lib_uree_mtk_crypto.so \
     vendor/amazon/tank/proprietary/lib/lib_uree_mtk_modular_drm.so:system/lib/lib_uree_mtk_modular_drm.so \
