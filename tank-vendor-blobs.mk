@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/hw/keystore.mt8127.so:system/lib/hw/keystore.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/amazon/tank/proprietary/lib/hw/memtrack.mt8127.so:system/lib/hw/memtrack.mt8127.so \
-    vendor/amazon/tank/proprietary/lib/hw/perfboost.mt8127.so:system/lib/hw/perfboost.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/thermal.mt8127.so:system/lib/hw/thermal.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/tv_input.default.so:system/lib/hw/tv_input.default.so \
     vendor/amazon/tank/proprietary/lib/lib3a.so:system/lib/lib3a.so \
@@ -221,7 +220,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/data/ttp/tecla-2014.rsa:system/vendor/data/ttp/tecla-2014.rsa \
     vendor/amazon/tank/proprietary/vendor/data/ttp/viber-voip.rsa:system/vendor/data/ttp/viber-voip.rsa \
     vendor/amazon/tank/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/amazon/tank/proprietary/vendor/firmware/BCM43569A2_001.003.004.0148.0000.hcd:system/vendor/firmware/BCM43569A2_001.003.004.0148.0000.hcd \
+    vendor/amazon/tank/proprietary/vendor/etc/dolby/ds-default.xml:system/vendor/etc/dolby/ds-default.xml \
+    vendor/amazon/tank/proprietary/vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd:system/vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware.bin:system/vendor/firmware/brcm/bcm43569a2-firmware.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware-test.bin:system/vendor/firmware/brcm/bcm43569a2-firmware-test.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2.nvm:system/vendor/firmware/brcm/bcm43569a2.nvm \
