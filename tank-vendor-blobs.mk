@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/hw/audio.btle.default.so:system/lib/hw/audio.btle.default.so \
     vendor/amazon/tank/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/amazon/tank/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
+    vendor/amazon/tank/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/amazon/tank/proprietary/lib/hw/audio.primary.mt8127.so:system/lib/hw/audio.primary.mt8127.so \
     vendor/amazon/tank/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
     vendor/amazon/tank/proprietary/lib/hw/audio.sco.mt8127.so:system/lib/hw/audio.sco.mt8127.so \
@@ -230,6 +231,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/amazon/tank/proprietary/vendor/lib/libdlb_converter.so:system/vendor/lib/libdlb_converter.so \
     vendor/amazon/tank/proprietary/vendor/lib/libdlbdapstorage.so:system/vendor/lib/libdlbdapstorage.so \
+    vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libdrmfpsplugin.so:system/vendor/lib/mediadrm/libdrmfpsplugin.so \
     vendor/amazon/tank/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/amazon/tank/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
     vendor/amazon/tank/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
