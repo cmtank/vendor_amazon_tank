@@ -256,4 +256,19 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headphone.csv:system/vendor/smartvolume/tank/wired_headphone.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv \
     vendor/amazon/tank/proprietary/xbin/trapz:system/xbin/trapz \
-    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl
+    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0401.kl:system/usr/keylayout/Vendor_1949_Product_0401.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0404.kl:system/usr/keylayout/Vendor_1949_Product_0404.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0407.kl:system/usr/keylayout/Vendor_1949_Product_0407.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_040a.kl:system/usr/keylayout/Vendor_1949_Product_040a.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0419.kl:system/usr/keylayout/Vendor_1949_Product_0419.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0402.kl:system/usr/keylayout/Vendor_1949_Product_0402.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0406.kl:system/usr/keylayout/Vendor_1949_Product_0406.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0409.kl:system/usr/keylayout/Vendor_1949_Product_0409.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0415.kl:system/usr/keylayout/Vendor_1949_Product_0415.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/lightning-device.kl:system/usr/keylayout/lightning-device.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_20a0_Product_0004.kl:system/usr/keylayout/Vendor_20a0_Product_0004.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_054c_Product_05c4.kl:system/usr/keylayout/Vendor_054c_Product_05c4.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_0171_Product_0413.kl:system/usr/keylayout/Vendor_0171_Product_0413.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_0171_Product_0419.kl:system/usr/keylayout/Vendor_0171_Product_0419.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_045e_Product_0291.kl:system/usr/keylayout/Vendor_045e_Product_0291.kl
