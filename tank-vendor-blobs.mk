@@ -269,6 +269,10 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/usr/keylayout/lightning-device.kl:system/usr/keylayout/lightning-device.kl \
     vendor/amazon/tank/proprietary/usr/keylayout/Vendor_20a0_Product_0004.kl:system/usr/keylayout/Vendor_20a0_Product_0004.kl \
     vendor/amazon/tank/proprietary/usr/keylayout/Vendor_054c_Product_05c4.kl:system/usr/keylayout/Vendor_054c_Product_05c4.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_22b8_Product_093d.kl:system/usr/keylayout/Vendor_22b8_Product_093d.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_046d_Product_b501.kl:system/usr/keylayout/Vendor_046d_Product_b501.kl \
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_046d_Product_c532.kl:system/usr/keylayout/Vendor_046d_Product_c532.kl \
     vendor/amazon/tank/proprietary/usr/keylayout/Vendor_0171_Product_0413.kl:system/usr/keylayout/Vendor_0171_Product_0413.kl \
     vendor/amazon/tank/proprietary/usr/keylayout/Vendor_0171_Product_0419.kl:system/usr/keylayout/Vendor_0171_Product_0419.kl \
     vendor/amazon/tank/proprietary/usr/keylayout/Vendor_045e_Product_0291.kl:system/usr/keylayout/Vendor_045e_Product_0291.kl \
