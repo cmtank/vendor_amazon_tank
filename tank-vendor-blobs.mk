@@ -271,4 +271,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/usr/keylayout/Vendor_054c_Product_05c4.kl:system/usr/keylayout/Vendor_054c_Product_05c4.kl \
     vendor/amazon/tank/proprietary/usr/keylayout/Vendor_0171_Product_0413.kl:system/usr/keylayout/Vendor_0171_Product_0413.kl \
     vendor/amazon/tank/proprietary/usr/keylayout/Vendor_0171_Product_0419.kl:system/usr/keylayout/Vendor_0171_Product_0419.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_045e_Product_0291.kl:system/usr/keylayout/Vendor_045e_Product_0291.kl
+    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_045e_Product_0291.kl:system/usr/keylayout/Vendor_045e_Product_0291.kl \
+    vendor/amazon/tank/proprietary/vendor/lib/libFPS.so:system/vendor/lib/libFPS.so \
+    vendor/amazon/tank/proprietary/vendor/lib/libTAFps.so:system/vendor/lib/libTAFps.so
