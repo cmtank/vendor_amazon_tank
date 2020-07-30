@@ -39,12 +39,14 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/amazon/tank/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/amazon/tank/proprietary/bin/pq:system/bin/pq \
-    vendor/amazon/tank/proprietary/bin/recovery_reporter:system/bin/recovery_reporter \
     vendor/amazon/tank/proprietary/bin/rpmb_svc:system/bin/rpmb_svc \
     vendor/amazon/tank/proprietary/bin/thermald:system/bin/thermald \
     vendor/amazon/tank/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/amazon/tank/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/amazon/tank/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
+    vendor/amazon/tank/proprietary/xbin/trapz:system/xbin/trapz \
+    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl \
+    vendor/amazon/tank/proprietary/lib/libatv_uinputbridge.so:system/lib/libatv_uinputbridge.so \
     vendor/amazon/tank/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/btmac.sh:system/etc/bluetooth/btmac.sh \
@@ -106,17 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
     vendor/amazon/tank/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/amazon/tank/proprietary/lib/libbwc.so:system/lib/libbwc.so \
-    vendor/amazon/tank/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
-    vendor/amazon/tank/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
-    vendor/amazon/tank/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
-    vendor/amazon/tank/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
-    vendor/amazon/tank/proprietary/lib/libcamera_client_mtk.so:system/lib/libcamera_client_mtk.so \
-    vendor/amazon/tank/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
-    vendor/amazon/tank/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
-    vendor/amazon/tank/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
-    vendor/amazon/tank/proprietary/lib/libcam.utils.sensorlistener.so:system/lib/libcam.utils.sensorlistener.so \
-    vendor/amazon/tank/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
-    vendor/amazon/tank/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
     vendor/amazon/tank/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/amazon/tank/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/amazon/tank/proprietary/lib/libdeviceinfoservice.so:system/lib/libdeviceinfoservice.so \
@@ -142,9 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libm4u.so:system/lib/libm4u.so \
     vendor/amazon/tank/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/amazon/tank/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
-    vendor/amazon/tank/proprietary/lib/libmediacodecloggerservice.so:system/lib/libmediacodecloggerservice.so \
-    vendor/amazon/tank/proprietary/lib/libmediacodeclogger.so:system/lib/libmediacodeclogger.so \
-    vendor/amazon/tank/proprietary/lib/libmediaerrorlogger.so:system/lib/libmediaerrorlogger.so \
     vendor/amazon/tank/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/amazon/tank/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
     vendor/amazon/tank/proprietary/lib/libmp2dec_sa.ca7.so:system/lib/libmp2dec_sa.ca7.so \
@@ -178,8 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/amazon/tank/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/amazon/tank/proprietary/lib/libthermalservice.so:system/lib/libthermalservice.so \
-    vendor/amazon/tank/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/amazon/tank/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/amazon/tank/proprietary/lib/libtoe.so:system/lib/libtoe.so \
     vendor/amazon/tank/proprietary/lib/libtrapz.so:system/lib/libtrapz.so \
     vendor/amazon/tank/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
@@ -198,7 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/amazon/tank/proprietary/lib/libwlfAmzn.so:system/lib/libwlfAmzn.so \
     vendor/amazon/tank/proprietary/lib/libwlm.so:system/lib/libwlm.so \
-    vendor/amazon/tank/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
     vendor/amazon/tank/proprietary/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
     vendor/amazon/tank/proprietary/lib/modules/ozwpan.ko:system/lib/modules/ozwpan.ko \
     vendor/amazon/tank/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
@@ -224,20 +209,22 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/amazon/tank/proprietary/vendor/etc/dolby/ds-default.xml:system/vendor/etc/dolby/ds-default.xml \
     vendor/amazon/tank/proprietary/vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd:system/vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd \
-    vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware.bin:system/vendor/firmware/brcm/bcm43569a2-firmware.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware-test.bin:system/vendor/firmware/brcm/bcm43569a2-firmware-test.bin \
+    vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware.bin:system/vendor/firmware/brcm/bcm43569a2-firmware.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2.nvm:system/vendor/firmware/brcm/bcm43569a2.nvm \
     vendor/amazon/tank/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/amazon/tank/proprietary/vendor/lib/libFPS.so:system/vendor/lib/libFPS.so \
+    vendor/amazon/tank/proprietary/vendor/lib/libTAFps.so:system/vendor/lib/libTAFps.so \
+    vendor/amazon/tank/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/amazon/tank/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/amazon/tank/proprietary/vendor/lib/libdlb_converter.so:system/vendor/lib/libdlb_converter.so \
     vendor/amazon/tank/proprietary/vendor/lib/libdlbdapstorage.so:system/vendor/lib/libdlbdapstorage.so \
-    vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libdrmfpsplugin.so:system/vendor/lib/mediadrm/libdrmfpsplugin.so \
     vendor/amazon/tank/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/amazon/tank/proprietary/vendor/lib/libstagefright_soft_ddpdec.so:system/vendor/lib/libstagefright_soft_ddpdec.so \
     vendor/amazon/tank/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/amazon/tank/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/amazon/tank/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libdrmfpsplugin.so:system/vendor/lib/mediadrm/libdrmfpsplugin.so \
     vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libplayreadydrmplugin.so:system/vendor/lib/mediadrm/libplayreadydrmplugin.so \
     vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -247,34 +234,11 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/bt_a2dp.csv:system/vendor/smartvolume/tank/bt_a2dp.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/bt_a2dp_headphones.csv:system/vendor/smartvolume/tank/bt_a2dp_headphones.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/bt_a2dp_speaker.csv:system/vendor/smartvolume/tank/bt_a2dp_speaker.csv \
-    vendor/amazon/tank/proprietary/vendor/smartvolume/tank/bt_sco_carkit.csv:system/vendor/smartvolume/tank/bt_sco_carkit.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/bt_sco.csv:system/vendor/smartvolume/tank/bt_sco.csv \
+    vendor/amazon/tank/proprietary/vendor/smartvolume/tank/bt_sco_carkit.csv:system/vendor/smartvolume/tank/bt_sco_carkit.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/bt_sco_headset.csv:system/vendor/smartvolume/tank/bt_sco_headset.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/default.csv:system/vendor/smartvolume/tank/default.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/dgtl_dock_headeset.csv:system/vendor/smartvolume/tank/dgtl_dock_headeset.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/speaker.csv:system/vendor/smartvolume/tank/speaker.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headphone.csv:system/vendor/smartvolume/tank/wired_headphone.csv \
-    vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv \
-    vendor/amazon/tank/proprietary/xbin/trapz:system/xbin/trapz \
-    vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0401.kl:system/usr/keylayout/Vendor_1949_Product_0401.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0404.kl:system/usr/keylayout/Vendor_1949_Product_0404.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0407.kl:system/usr/keylayout/Vendor_1949_Product_0407.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_040a.kl:system/usr/keylayout/Vendor_1949_Product_040a.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0419.kl:system/usr/keylayout/Vendor_1949_Product_0419.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0402.kl:system/usr/keylayout/Vendor_1949_Product_0402.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0406.kl:system/usr/keylayout/Vendor_1949_Product_0406.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0409.kl:system/usr/keylayout/Vendor_1949_Product_0409.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_1949_Product_0415.kl:system/usr/keylayout/Vendor_1949_Product_0415.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/lightning-device.kl:system/usr/keylayout/lightning-device.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_20a0_Product_0004.kl:system/usr/keylayout/Vendor_20a0_Product_0004.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_054c_Product_05c4.kl:system/usr/keylayout/Vendor_054c_Product_05c4.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_0171_Product_0413.kl:system/usr/keylayout/Vendor_0171_Product_0413.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_0171_Product_0419.kl:system/usr/keylayout/Vendor_0171_Product_0419.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_045e_Product_0291.kl:system/usr/keylayout/Vendor_045e_Product_0291.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_046d_Product_b501.kl:system/usr/keylayout/Vendor_046d_Product_b501.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_046d_Product_c532.kl:system/usr/keylayout/Vendor_046d_Product_c532.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_05ac_Product_0239.kl:system/usr/keylayout/Vendor_05ac_Product_0239.kl \
-    vendor/amazon/tank/proprietary/usr/keylayout/Vendor_22b8_Product_093d.kl:system/usr/keylayout/Vendor_22b8_Product_093d.kl \
-    vendor/amazon/tank/proprietary/vendor/lib/libFPS.so:system/vendor/lib/libFPS.so \
-    vendor/amazon/tank/proprietary/vendor/lib/libTAFps.so:system/vendor/lib/libTAFps.so
+    vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv
