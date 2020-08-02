@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/xbin/trapz:system/xbin/trapz \
     vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl \
     vendor/amazon/tank/proprietary/lib/libatv_uinputbridge.so:system/lib/libatv_uinputbridge.so \
+    vendor/amazon/tank/proprietary/lib/libarthook_native.so:system/lib/libarthook_native.so \
     vendor/amazon/tank/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/btmac.sh:system/etc/bluetooth/btmac.sh \
