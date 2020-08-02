@@ -48,6 +48,10 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/xbin/wl:system/xbin/wl \
     vendor/amazon/tank/proprietary/lib/libatv_uinputbridge.so:system/lib/libatv_uinputbridge.so \
     vendor/amazon/tank/proprietary/lib/libarthook_native.so:system/lib/libarthook_native.so \
+    vendor/amazon/tank/proprietary/lib/libcast_bluetooth_2.0.so:system/lib/libcast_bluetooth_2.0.so \
+    vendor/amazon/tank/proprietary/lib/libcast_external_audio_pipeline_1.0.so:system/lib/libcast_external_audio_pipeline_1.0.so \
+    vendor/amazon/tank/proprietary/lib/libcast_shell_android.so:system/lib/libcast_shell_android.so \
+    vendor/amazon/tank/proprietary/lib/libcrashpad_handler.so:system/lib/libcrashpad_handler.so \
     vendor/amazon/tank/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/btmac.sh:system/etc/bluetooth/btmac.sh \
