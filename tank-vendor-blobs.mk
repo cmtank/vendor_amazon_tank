@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The Gummy ROM Project
+# Copyright (C) 2020 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -246,4 +246,4 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/dgtl_dock_headeset.csv:system/vendor/smartvolume/tank/dgtl_dock_headeset.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/speaker.csv:system/vendor/smartvolume/tank/speaker.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headphone.csv:system/vendor/smartvolume/tank/wired_headphone.csv \
-    vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv
+    vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv \

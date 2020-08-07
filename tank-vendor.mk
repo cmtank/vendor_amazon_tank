@@ -19,3 +19,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/amazon/tank/overlay
 
 $(call inherit-product, vendor/amazon/tank/tank-vendor-blobs.mk)
 
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
+
