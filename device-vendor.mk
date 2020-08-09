@@ -22,6 +22,5 @@ PRODUCT_PACKAGES += \
     GlobalKeyInterceptor \
     LeanbackIme \
     LeanbackLauncher \
-    Overscan \
-    RemoteControlService
+    Overscan
 
