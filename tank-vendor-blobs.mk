@@ -211,8 +211,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/data/ttp/tecla-2013.rsa:system/vendor/data/ttp/tecla-2013.rsa \
     vendor/amazon/tank/proprietary/vendor/data/ttp/tecla-2014.rsa:system/vendor/data/ttp/tecla-2014.rsa \
     vendor/amazon/tank/proprietary/vendor/data/ttp/viber-voip.rsa:system/vendor/data/ttp/viber-voip.rsa \
-    vendor/amazon/tank/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/amazon/tank/proprietary/vendor/etc/dolby/ds-default.xml:system/vendor/etc/dolby/ds-default.xml \
     vendor/amazon/tank/proprietary/vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd:system/vendor/firmware/BCM43569A2_001.003.004.0172.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware-test.bin:system/vendor/firmware/brcm/bcm43569a2-firmware-test.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware.bin:system/vendor/firmware/brcm/bcm43569a2-firmware.bin \
