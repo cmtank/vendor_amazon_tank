@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/bin/drmserver:system/bin/drmserver \
     vendor/amazon/tank/proprietary/bin/ext4_resize:system/bin/ext4_resize \
     vendor/amazon/tank/proprietary/bin/hdmi:system/bin/hdmi \
+    vendor/amazon/tank/proprietary/bin/hostapd:system/bin/hostapd \
     vendor/amazon/tank/proprietary/bin/idme:system/bin/idme \
     vendor/amazon/tank/proprietary/bin/kisd:system/bin/kisd \
     vendor/amazon/tank/proprietary/bin/meta_tst:system/bin/meta_tst \
@@ -189,6 +190,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/amazon/tank/proprietary/lib/libwlfAmzn.so:system/lib/libwlfAmzn.so \
     vendor/amazon/tank/proprietary/lib/libwlm.so:system/lib/libwlm.so \
+    vendor/amazon/tank/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
     vendor/amazon/tank/proprietary/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
     vendor/amazon/tank/proprietary/lib/modules/ozwpan.ko:system/lib/modules/ozwpan.ko \
     vendor/amazon/tank/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
